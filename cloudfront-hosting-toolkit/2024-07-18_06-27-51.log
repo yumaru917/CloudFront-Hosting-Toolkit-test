@@ -1,0 +1,54 @@
+══════════════════════
+npx cdk deploy  hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 --context config-path=/home/ec2-user/environment/CloudFront-Hosting-Toolkit-test/cloudfront-hosting-toolkit   
+
+
+══════════════════════
+
+
+✨  Synthesis time: 2.31s
+
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917:  start: Building b251abe48068af150a5dd1cbbbb12d3c23a507d108d79dabf10d6b7133c45602:425106470085-ap-northeast-1
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917:  success: Built b251abe48068af150a5dd1cbbbb12d3c23a507d108d79dabf10d6b7133c45602:425106470085-ap-northeast-1
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917:  start: Publishing b251abe48068af150a5dd1cbbbb12d3c23a507d108d79dabf10d6b7133c45602:425106470085-ap-northeast-1
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-file-publishing-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917:  success: Published b251abe48068af150a5dd1cbbbb12d3c23a507d108d79dabf10d6b7133c45602:425106470085-ap-northeast-1
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-lookup-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+Lookup role exists but was not assumed. Proceeding with default credentials.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917: deploying... [1/1]
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917: creating CloudFormation changeset...
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:27:56 AM | REVIEW_IN_PROGRESS   | AWS::CloudFormation::Stack           | hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 User Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:01 AM | CREATE_IN_PROGRESS   | AWS::CloudFormation::Stack           | hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 User Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:05 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionRegion (RepositoryConnectionSSMConnectionRegion4029CE52) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:05 AM | CREATE_IN_PROGRESS   | AWS::CDK::Metadata                   | CDKMetadata/Default (CDKMetadata) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:05 AM | CREATE_IN_PROGRESS   | AWS::CodeStarConnections::Connection | RepositoryConnection/MyCfnConnectionCloudFront-Hosting-Toolkit-test (RepositoryConnectionMyCfnConnectionCloudFrontHostingToolkittestFCE25482) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:05 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionName (RepositoryConnectionSSMConnectionNameAB648C27) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:06 AM | CREATE_IN_PROGRESS   | AWS::CodeStarConnections::Connection | RepositoryConnection/MyCfnConnectionCloudFront-Hosting-Toolkit-test (RepositoryConnectionMyCfnConnectionCloudFrontHostingToolkittestFCE25482) Resource creation Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:06 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionRegion (RepositoryConnectionSSMConnectionRegion4029CE52) Resource creation Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:06 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionName (RepositoryConnectionSSMConnectionNameAB648C27) Resource creation Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 0/6 | 6:28:06 AM | CREATE_IN_PROGRESS   | AWS::CDK::Metadata                   | CDKMetadata/Default (CDKMetadata) Resource creation Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 1/6 | 6:28:06 AM | CREATE_COMPLETE      | AWS::CDK::Metadata                   | CDKMetadata/Default (CDKMetadata) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 2/6 | 6:28:06 AM | CREATE_COMPLETE      | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionRegion (RepositoryConnectionSSMConnectionRegion4029CE52) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 3/6 | 6:28:06 AM | CREATE_COMPLETE      | AWS::CodeStarConnections::Connection | RepositoryConnection/MyCfnConnectionCloudFront-Hosting-Toolkit-test (RepositoryConnectionMyCfnConnectionCloudFrontHostingToolkittestFCE25482) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 4/6 | 6:28:06 AM | CREATE_COMPLETE      | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionName (RepositoryConnectionSSMConnectionNameAB648C27) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 4/6 | 6:28:07 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionArn (RepositoryConnectionSSMConnectionArn1E74102B) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 4/6 | 6:28:08 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionArn (RepositoryConnectionSSMConnectionArn1E74102B) Resource creation Initiated
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 5/6 | 6:28:09 AM | CREATE_COMPLETE      | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionArn (RepositoryConnectionSSMConnectionArn1E74102B) 
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 | 6/6 | 6:28:10 AM | CREATE_COMPLETE      | AWS::CloudFormation::Stack           | hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 
+
+ ✅  hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917
+
+✨  Deployment time: 16.26s
+
+Outputs:
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.ExportsOutputFnGetAttRepositoryConnectionMyCfnConnectionCloudFrontHostingToolkittestFCE25482ConnectionArn279786FF = arn:aws:codestar-connections:ap-northeast-1:425106470085:connection/7243977f-8387-426c-8e4c-d91f748620c3
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionConnectionArn087CB8E2 = arn:aws:codestar-connections:ap-northeast-1:425106470085:connection/7243977f-8387-426c-8e4c-d91f748620c3
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionConnectionNameFD2EABB9 = CloudFront-Hosting-Toolkit-test-
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionHostingRegion1B4A18AD = ap-northeast-1
+Stack ARN:
+arn:aws:cloudformation:ap-northeast-1:425106470085:stack/hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917/de9197d0-44ce-11ef-ad78-06faa83eca75
+
+✨  Total time: 18.57s
+
+

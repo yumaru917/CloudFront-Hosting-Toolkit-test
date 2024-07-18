@@ -1,0 +1,52 @@
+══════════════════════
+npx cdk deploy hosting-main-CloudFront-Hosting-Toolkit-test-main  --context config-path=/home/ec2-user/environment/CloudFront-Hosting-Toolkit-test/cloudfront-hosting-toolkit --require-approval never 
+
+
+══════════════════════
+
+Including dependency stacks: hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917
+[Warning at /hosting-main-CloudFront-Hosting-Toolkit-test-main/Hosting/PipelineInfrastructure/MyPipeline] V1 pipeline type is implicitly selected when `pipelineType` is not set. If you want to use V2 type, set `PipelineType.V2`. [ack: @aws-cdk/aws-codepipeline:unspecifiedPipelineType]
+
+✨  Synthesis time: 2.31s
+
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917: deploying... [1/2]
+
+ ✅  hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 (no changes)
+
+✨  Deployment time: 0.18s
+
+Outputs:
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.ExportsOutputFnGetAttRepositoryConnectionMyCfnConnectionCloudFrontHostingToolkittestFCE25482ConnectionArn279786FF = arn:aws:codestar-connections:ap-northeast-1:425106470085:connection/7243977f-8387-426c-8e4c-d91f748620c3
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionConnectionArn087CB8E2 = arn:aws:codestar-connections:ap-northeast-1:425106470085:connection/7243977f-8387-426c-8e4c-d91f748620c3
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionConnectionNameFD2EABB9 = CloudFront-Hosting-Toolkit-test-
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionHostingRegion1B4A18AD = ap-northeast-1
+Stack ARN:
+arn:aws:cloudformation:ap-northeast-1:425106470085:stack/hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917/de9197d0-44ce-11ef-ad78-06faa83eca75
+
+✨  Total time: 2.49s
+
+hosting-main-CloudFront-Hosting-Toolkit-test-main
+hosting-main-CloudFront-Hosting-Toolkit-test-main: deploying... [2/2]
+
+ ✅  hosting-main-CloudFront-Hosting-Toolkit-test-main (no changes)
+
+✨  Deployment time: 0.37s
+
+Outputs:
+hosting-main-CloudFront-Hosting-Toolkit-test-main.HostingHostingInfrastructureDomainNameF9962E64 = https://d1kdyzqi90gvav.cloudfront.net
+hosting-main-CloudFront-Hosting-Toolkit-test-main.HostingPipelineInfrastructurePipelineNameC86AA64C = yumaru917-CloudFront-Hosting-Toolkit-test
+Stack ARN:
+
+✨  Total time: 2.68s
+
+arn:aws:cloudformation:ap-northeast-1:425106470085:stack/hosting-main-CloudFront-Hosting-Toolkit-test-main/f7d04cf0-44ce-11ef-ae3e-0a62839f3629
+

@@ -1,0 +1,30 @@
+══════════════════════
+npx cdk deploy  hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 --context config-path=/home/ec2-user/environment/CloudFront-Hosting-Toolkit-test/cloudfront-hosting-toolkit   
+
+
+══════════════════════
+
+
+✨  Synthesis time: 2.38s
+
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-lookup-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+Lookup role exists but was not assumed. Proceeding with default credentials.
+current credentials could not be used to assume 'arn:aws:iam::425106470085:role/cdk-hnb659fds-deploy-role-425106470085-ap-northeast-1', but are for the right account. Proceeding anyway.
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917: deploying... [1/1]
+
+ ✅  hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917 (no changes)
+
+✨  Deployment time: 0.17s
+
+Outputs:
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.ExportsOutputFnGetAttRepositoryConnectionMyCfnConnectionCloudFrontHostingToolkittestFCE25482ConnectionArn279786FF = arn:aws:codestar-connections:ap-northeast-1:425106470085:connection/7243977f-8387-426c-8e4c-d91f748620c3
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionConnectionArn087CB8E2 = arn:aws:codestar-connections:ap-northeast-1:425106470085:connection/7243977f-8387-426c-8e4c-d91f748620c3
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionConnectionNameFD2EABB9 = CloudFront-Hosting-Toolkit-test-
+hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917.RepositoryConnectionHostingRegion1B4A18AD = ap-northeast-1
+Stack ARN:
+arn:aws:cloudformation:ap-northeast-1:425106470085:stack/hosting-connection-CloudFront-Hosting-Toolkit-test-main-yumaru917/de9197d0-44ce-11ef-ad78-06faa83eca75
+
+✨  Total time: 2.56s
+
+
